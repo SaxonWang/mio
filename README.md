@@ -1,4 +1,4 @@
-# Mio - Continuous Integration and Continuous Delivery Platform
+# Mio - CI/CD Platform
 
 <p align="center">
   <a href="https://travis-ci.org/hidevopsio/mio?branch=master">
