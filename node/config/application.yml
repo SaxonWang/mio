@@ -1,0 +1,16 @@
+# filename should be application.yml
+
+app:
+  project: hidevopsio
+  name: hiadmin
+  profiles:
+    include:
+    - jwt
+    - grpc
+    - kube
+    - mio
+    - docker
+
+logging:
+  level: debug
+
