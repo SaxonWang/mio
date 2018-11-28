@@ -78,7 +78,7 @@ func TestBuild(t *testing.T) {
 
 	t.Run("should err in the compile", func(t *testing.T) {
 		err := buildConfigimpl.Compile(&compileRequest)
-		assert.Equal(t, nil, err)
+		assert.NotEqual(t, nil, err)
 
 	})
 
